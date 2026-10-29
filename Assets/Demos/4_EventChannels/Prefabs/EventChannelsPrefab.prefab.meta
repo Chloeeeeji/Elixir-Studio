@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f50c5fcb053594b0797e0b6985774fec
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: Paddle Ball | ScriptableObject Sample Project
+  packageVersion: 1.2
+  assetPath: Assets/Demos/4_EventChannels/Prefabs/EventChannelsPrefab.prefab
+  uploadId: 988214

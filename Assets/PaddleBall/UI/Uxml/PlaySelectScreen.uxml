@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/PaddleBall/UI/Uss/PaddleBallScreens.uss?fileID=7433441132597879392&amp;guid=5f1fa7b4fc1384e90a776788b57e71c1&amp;type=3#PaddleBallScreens" />
+    <ui:VisualElement name="play-mode__parent" class="menu-screen">
+        <ui:VisualElement name="play-mode__background-image" class="menu-screen__background menu-screen__background--play"/>
+        <ui:Label text="PLAY MODE" display-tooltip-when-elided="true" name="play-mode__title" picking-mode="Ignore" class="title-text title-text--play">
+            <ui:Label display-tooltip-when-elided="true" name="play-mode__subheading" picking-mode="Ignore" text="Mini-games" class="subheading-text" />
+        </ui:Label>
+        <ui:VisualElement name="play-mode__buttons" class="menu-column menu-column--play">
+            <ui:Button text="CLASSIC" display-tooltip-when-elided="true" name="play-mode__button-a" class="menu-button menu-button--mode" />
+            <ui:Button text="HOCKEY" display-tooltip-when-elided="true" name="play-mode__button-b" enable-rich-text="false" class="menu-button menu-button--mode menu-button--mode-indent" />
+            <ui:Button text="FOOSBALL" display-tooltip-when-elided="true" name="play-mode__button-c" enable-rich-text="false" class="menu-button menu-button--mode menu-button--mode-indent" />
+            <ui:Button text="CUSTOM" display-tooltip-when-elided="true" name="play-mode__button-d" enable-rich-text="false" class="menu-button menu-button--mode menu-button--mode-hidden">
+                <ui:Label text="COMING SOON" display-tooltip-when-elided="true" name="coming-soon__label" class="coming-soon-label"/>
+            </ui:Button>
+        </ui:VisualElement>
+        <ui:Button text="&lt; BACK" display-tooltip-when-elided="true" name="play-mode__back-button" class="back-button" />
+    </ui:VisualElement>
+</ui:UXML>

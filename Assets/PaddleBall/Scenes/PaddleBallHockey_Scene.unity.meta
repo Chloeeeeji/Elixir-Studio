@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 78a66c5aed4404c96b5db2e68586ac4f
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: Paddle Ball | ScriptableObject Sample Project
+  packageVersion: 1.2
+  assetPath: Assets/PaddleBall/Scenes/PaddleBallHockey_Scene.unity
+  uploadId: 988214

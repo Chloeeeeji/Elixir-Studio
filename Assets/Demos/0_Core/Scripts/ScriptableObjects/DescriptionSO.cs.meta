@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 9e9cc8fd9aec54d0a908b8190c2e954e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: Paddle Ball | ScriptableObject Sample Project
+  packageVersion: 1.2
+  assetPath: Assets/Demos/0_Core/Scripts/ScriptableObjects/DescriptionSO.cs
+  uploadId: 988214

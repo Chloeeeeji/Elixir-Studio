@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d2f95cf22f50427abbe42410750a0e44
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: Paddle Ball | ScriptableObject Sample Project
+  packageVersion: 1.2
+  assetPath: Assets/PaddleBall/PipelineSettings/Renderer2D.asset
+  uploadId: 988214

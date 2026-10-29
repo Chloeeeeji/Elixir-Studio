@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/PaddleBall/UI/Uss/PaddleBallScreens.uss?fileID=7433441132597879392&amp;guid=5f1fa7b4fc1384e90a776788b57e71c1&amp;type=3#PaddleBallScreens"/>
+    <ui:VisualElement name="pong-menu__parent" class="menu-screen">
+        <ui:VisualElement name="pong-menu__background-image" class="menu-screen__background menu-screen__background--menu"/>
+        <ui:Label text="PADDLE BALL" display-tooltip-when-elided="true" name="pong-menu__title" picking-mode="Ignore" class="title-text title-text--menu">
+            <ui:Label text="Scriptable Objects" display-tooltip-when-elided="true" name="pong-menu__subheading" picking-mode="Ignore" class="subheading-text subheading-text--menu"/>
+        </ui:Label>
+        <ui:VisualElement name="pong-menu__buttons" class="menu-column menu-column--menu">
+            <ui:Button text="PLAY" display-tooltip-when-elided="true" name="pong-menu__button-play" class="menu-button menu-button--large"/>
+            <ui:Button text="PATTERNS" display-tooltip-when-elided="true" name="pong-menu__button-explore" class="menu-button menu-button--medium"/>
+            <ui:Button text="QUIT" display-tooltip-when-elided="true" name="pong-menu__button-quit" class="menu-button menu-button--medium"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ee8850401da740138faf9e128321194f
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: Paddle Ball | ScriptableObject Sample Project
+  packageVersion: 1.2
+  assetPath: Assets/_ThirdParty/Fonts/Roboto/NOTICE.txt
+  uploadId: 988214

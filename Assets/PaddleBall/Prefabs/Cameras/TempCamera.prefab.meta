@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 67d4ad58591f54eb482db4514f2a638e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: Paddle Ball | ScriptableObject Sample Project
+  packageVersion: 1.2
+  assetPath: Assets/PaddleBall/Prefabs/Cameras/TempCamera.prefab
+  uploadId: 988214

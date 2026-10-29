@@ -1,0 +1,48 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/PaddleBall/UI/Uss/PaddleBallScreens.uss?fileID=7433441132597879392&amp;guid=5f1fa7b4fc1384e90a776788b57e71c1&amp;type=3#PaddleBallScreens" />
+    <Style src="project://database/Assets/Demos/0_Core/UI/Uss/TutorialScreens.uss?fileID=7433441132597879392&amp;guid=8241f479c14c4fb9ad0a9ef1aa4a9f85&amp;type=3#TutorialScreens" />
+    <ui:VisualElement name="tutorial__container" picking-mode="Ignore" class="tutorial-screen">
+        <ui:VisualElement name="tutorial__background" picking-mode="Ignore" class="tutorial-screen__background" />
+        <ui:VisualElement name="text-screen__container" class="text-panel">
+            <ui:VisualElement name="text-screen__header" class="text-panel__header">
+                <ui:Label text="Title" display-tooltip-when-elided="true" name="text-screen__title" class="text-panel__title" />
+            </ui:VisualElement>
+            <ui:VisualElement name="text-screen__body" class="text-panel__body">
+                <ui:Label display-tooltip-when-elided="true" name="text-screen__page-text" class="body-text text-panel__page-text" />
+            </ui:VisualElement>
+            <ui:VisualElement name="text-screen__footer" class="text-panel__footer">
+                <ui:VisualElement name="text-screen__button-panel" class="text-panel__buttons">
+                    <ui:Button display-tooltip-when-elided="true" name="text-screen__button-last" enable-rich-text="true" text="&#10;" class="button-nextlast nav-button--last" />
+                    <ui:Button text="Raise Event" display-tooltip-when-elided="true" name="text-screen__raise-event-button" class="tutorial-button action-button action-button--half" />
+                    <ui:Button display-tooltip-when-elided="true" name="text-screen__button-next" class="button-nextlast nav-button--next" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement picking-mode="Ignore" name="play-area__container" class="play-area">
+            <ui:VisualElement name="play-area__header" picking-mode="Ignore" class="play-area__header">
+                <ui:Button display-tooltip-when-elided="true" name="broadcaster__button" class="broadcaster-button">
+                    <ui:Label text="Broadcaster" display-tooltip-when-elided="true" name="broadcaster__label" class="diagram-label" />
+                    <ui:VisualElement name="broadcaster__icon" class="broadcaster-icon" />
+                </ui:Button>
+            </ui:VisualElement>
+            <ui:VisualElement name="play-area__body" picking-mode="Ignore" class="play-area__body">
+                <ui:VisualElement name="sobject__container" picking-mode="Ignore" class="channel-row">
+                    <ui:VisualElement name="sobject__icon" class="channel-icon" />
+                    <ui:Label text="Event channel" display-tooltip-when-elided="true" name="sobject__label" class="diagram-label" />
+                </ui:VisualElement>
+                <ui:VisualElement name="listener__container" picking-mode="Ignore" class="listener-row">
+                    <ui:VisualElement name="listener__icon-1" picking-mode="Ignore" class="listener-icon">
+                        <ui:Label text="Listener" display-tooltip-when-elided="true" name="listener__label-1" picking-mode="Ignore" class="diagram-label diagram-label--below" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="listener__icon-2" picking-mode="Ignore" class="listener-icon">
+                        <ui:Label text="Listener" display-tooltip-when-elided="true" name="listener__label-2" picking-mode="Ignore" class="diagram-label diagram-label--below" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="listener__icon-3" picking-mode="Ignore" class="listener-icon">
+                        <ui:Label text="Listener" display-tooltip-when-elided="true" name="listener__label-3" picking-mode="Ignore" class="diagram-label diagram-label--below" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="play-area__footer" picking-mode="Ignore" class="play-area__footer" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

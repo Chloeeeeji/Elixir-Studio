@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 418090a9f3d9a43c69308faf4f65d6c8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: Paddle Ball | ScriptableObject Sample Project
+  packageVersion: 1.2
+  assetPath: Assets/Core/SceneManagement/Scripts/SequenceManager.cs
+  uploadId: 988214

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 49c406a500c7f4e058b0f29e2600386a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: Paddle Ball | ScriptableObject Sample Project
+  packageVersion: 1.2
+  assetPath: Assets/PaddleBall/Data/PlayerID/P2_SO.asset
+  uploadId: 988214

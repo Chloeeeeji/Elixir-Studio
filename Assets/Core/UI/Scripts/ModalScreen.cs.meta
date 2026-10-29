@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 6f16d8cbcd9ec4644a82e51b534ac00d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: Paddle Ball | ScriptableObject Sample Project
+  packageVersion: 1.2
+  assetPath: Assets/Core/UI/Scripts/ModalScreen.cs
+  uploadId: 988214

@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/PaddleBall/UI/Uss/PaddleBallScreens.uss?fileID=7433441132597879392&amp;guid=5f1fa7b4fc1384e90a776788b57e71c1&amp;type=3#PaddleBallScreens"/>
+    <ui:VisualElement name="demo-select__container" class="menu-screen menu-screen--left">
+        <ui:VisualElement name="demo-select__background-image" class="menu-screen__background menu-screen__background--patterns"/>
+        <ui:Label text="DESIGN PATTERNS" display-tooltip-when-elided="true" name="demo-select__title" picking-mode="Ignore" class="title-text title-text--patterns">
+            <ui:Label display-tooltip-when-elided="true" name="sample-select__subheading" picking-mode="Ignore" text="with ScriptableObjects" class="subheading-text"/>
+        </ui:Label>
+        <ui:VisualElement name="demo-select__buttons" class="menu-column menu-column--patterns">
+            <ui:Button text="DATA CONTAINERS" display-tooltip-when-elided="true" name="demo-select__button-a" class="menu-button menu-button--list"/>
+            <ui:Button text="FLYWEIGHTS" display-tooltip-when-elided="true" name="demo-select__button-b" enable-rich-text="false" class="menu-button menu-button--list menu-button--list-tall"/>
+            <ui:Button text="DELEGATE OBJECTS" display-tooltip-when-elided="true" name="demo-select__button-c" enable-rich-text="false" class="menu-button menu-button--list"/>
+            <ui:Button text="EVENT CHANNELS" display-tooltip-when-elided="true" name="demo-select__button-d" enable-rich-text="false" class="menu-button menu-button--list menu-button--list-wrap"/>
+            <ui:Button text="RUNTIME SETS" display-tooltip-when-elided="true" name="demo-select__button-e" enable-rich-text="false" class="menu-button menu-button--list"/>
+            <ui:Button text="ENUMS" display-tooltip-when-elided="true" name="demo-select__button-f" enable-rich-text="false" class="menu-button menu-button--list"/>
+        </ui:VisualElement>
+        <ui:Button text="&lt; BACK" display-tooltip-when-elided="true" name="demo-select__back-button" class="back-button"/>
+    </ui:VisualElement>
+</ui:UXML>

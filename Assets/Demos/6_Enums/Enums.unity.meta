@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 36e4389611067459cb204a6dcca2bb73
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: Paddle Ball | ScriptableObject Sample Project
+  packageVersion: 1.2
+  assetPath: Assets/Demos/6_Enums/Enums.unity
+  uploadId: 988214

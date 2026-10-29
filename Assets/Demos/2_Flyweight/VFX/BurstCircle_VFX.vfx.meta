@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 9a82e3ce9051342f182963968c67beb8
+VisualEffectImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: Paddle Ball | ScriptableObject Sample Project
+  packageVersion: 1.2
+  assetPath: Assets/Demos/2_Flyweight/VFX/BurstCircle_VFX.vfx
+  uploadId: 988214

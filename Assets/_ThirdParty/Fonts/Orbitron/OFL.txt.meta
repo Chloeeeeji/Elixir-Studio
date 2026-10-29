@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 9725d1399ade9491f8833190d93fd046
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: Paddle Ball | ScriptableObject Sample Project
+  packageVersion: 1.2
+  assetPath: Assets/_ThirdParty/Fonts/Orbitron/OFL.txt
+  uploadId: 988214

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 1c06a027b5f8b47bba9d18c7eecefc0e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: Paddle Ball | ScriptableObject Sample Project
+  packageVersion: 1.2
+  assetPath: Assets/PaddleBall/Scripts/Managers/GameManager.cs
+  uploadId: 988214

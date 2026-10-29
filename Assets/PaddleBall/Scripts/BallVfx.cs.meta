@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: b12e60628e1364d53b52e8cdd7fa68f0
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: Paddle Ball | ScriptableObject Sample Project
+  packageVersion: 1.2
+  assetPath: Assets/PaddleBall/Scripts/BallVfx.cs
+  uploadId: 988214

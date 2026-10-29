@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 06a32c3ded3f54dabb26ecfda79fcde5
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: Paddle Ball | ScriptableObject Sample Project
+  packageVersion: 1.2
+  assetPath: Assets/PaddleBall/Prefabs/Level/Lights.prefab
+  uploadId: 988214

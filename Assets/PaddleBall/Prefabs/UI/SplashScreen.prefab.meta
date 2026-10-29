@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b4068cbd94b0f40e185ed1319c9f488c
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: Paddle Ball | ScriptableObject Sample Project
+  packageVersion: 1.2
+  assetPath: Assets/PaddleBall/Prefabs/UI/SplashScreen.prefab
+  uploadId: 988214
