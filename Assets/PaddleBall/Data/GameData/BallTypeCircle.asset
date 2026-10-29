@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4da7ce8a914ae4dc38e5066612fac6f4, type: 3}
+  m_Name: BallTypeCircle
+  m_EditorClassIdentifier: 
+  m_Sprite: {fileID: 21300000, guid: e0cf8806d35d64013ba4e5d0e6b11fba, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_ImpactVFXGraph: {fileID: 8926484042661614526, guid: 3d3dba3dcb1fa4091ac6c04b1971c7dc, type: 3}
+  m_BounceAudioClip: {fileID: 0}

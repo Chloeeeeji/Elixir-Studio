@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 77345e75984494d709c745bdcea5a05c
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: Paddle Ball | ScriptableObject Sample Project
+  packageVersion: 1.2
+  assetPath: Assets/PaddleBall/Prefabs/Gameplay/Sequence_Manager.prefab
+  uploadId: 988214

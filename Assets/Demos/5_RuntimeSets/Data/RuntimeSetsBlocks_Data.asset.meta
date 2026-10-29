@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cf310e05e84a44a57a14d58cf0ea0c3d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: Paddle Ball | ScriptableObject Sample Project
+  packageVersion: 1.2
+  assetPath: Assets/Demos/5_RuntimeSets/Data/RuntimeSetsBlocks_Data.asset
+  uploadId: 988214

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 0849a957e8a344402b5633ff69a4f20b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: Paddle Ball | ScriptableObject Sample Project
+  packageVersion: 1.2
+  assetPath: Assets/Core/EventChannels/Editor/VoidEventChannelSOEditor.cs
+  uploadId: 988214

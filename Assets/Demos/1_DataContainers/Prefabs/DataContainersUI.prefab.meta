@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 08599c9af16134250896d93421370c22
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: Paddle Ball | ScriptableObject Sample Project
+  packageVersion: 1.2
+  assetPath: Assets/Demos/1_DataContainers/Prefabs/DataContainersUI.prefab
+  uploadId: 988214

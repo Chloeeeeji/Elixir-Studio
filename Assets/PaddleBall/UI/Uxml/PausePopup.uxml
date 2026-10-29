@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Demos/0_Core/UI/Uss/DemoScreens.uss?fileID=7433441132597879392&amp;guid=d4e03b9c6dbd44e1eb545ac7efe0d04d&amp;type=3#DemoScreens" />
+    <ui:VisualElement name="pause-popup__parent" class="pause-popup">
+        <ui:VisualElement name="pause-popup__background" class="pause-popup__background"/>
+        <ui:VisualElement name="pause-popup__box" class="pause-popup__box">
+            <ui:VisualElement name="pause-popup__header" class="pause-popup__header"/>
+            <ui:VisualElement name="pause-popup__body" class="pause-popup__body">
+                <ui:Label text="QUIT TO MAIN MENU" display-tooltip-when-elided="true" name="pause-popup__text" class="pause-popup__text"/>
+                <ui:VisualElement name="pause-popup__buttons-group" class="pause-popup__buttons">
+                    <ui:Button text="QUIT" display-tooltip-when-elided="true" name="pause-popup__quit-button" class="tutorial-button pause-popup__button pause-popup__button--quit" />
+                    <ui:Button text="RESUME" display-tooltip-when-elided="true" name="pause-popup__resume-button" class="tutorial-button pause-popup__button pause-popup__button--resume" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="pause-popup__footer" class="pause-popup__footer"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

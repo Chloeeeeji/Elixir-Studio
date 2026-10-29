@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3d2ad415445b44e90960bfbc8c7a64d3
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: Paddle Ball | ScriptableObject Sample Project
+  packageVersion: 1.2
+  assetPath: Assets/Demos/6_Enums/Events/SpawnClicked_SO.asset
+  uploadId: 988214

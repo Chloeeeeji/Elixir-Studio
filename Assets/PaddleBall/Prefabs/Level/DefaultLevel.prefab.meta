@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e2d74364b36f44df182a812356089948
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: Paddle Ball | ScriptableObject Sample Project
+  packageVersion: 1.2
+  assetPath: Assets/PaddleBall/Prefabs/Level/DefaultLevel.prefab
+  uploadId: 988214

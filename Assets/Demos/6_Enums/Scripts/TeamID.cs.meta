@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 2906afebc60104adfa493536af9aea50
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: Paddle Ball | ScriptableObject Sample Project
+  packageVersion: 1.2
+  assetPath: Assets/Demos/6_Enums/Scripts/TeamID.cs
+  uploadId: 988214

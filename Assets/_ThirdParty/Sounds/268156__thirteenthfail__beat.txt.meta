@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 951e00c686ce84f1bba4c41487c2f66f
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: Paddle Ball | ScriptableObject Sample Project
+  packageVersion: 1.2
+  assetPath: Assets/_ThirdParty/Sounds/268156__thirteenthfail__beat.txt
+  uploadId: 988214

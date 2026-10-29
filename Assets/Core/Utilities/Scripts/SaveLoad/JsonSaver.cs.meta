@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 16e15932cda5a4bb88848646f7e2ea43
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: Paddle Ball | ScriptableObject Sample Project
+  packageVersion: 1.2
+  assetPath: Assets/Core/Utilities/Scripts/SaveLoad/JsonSaver.cs
+  uploadId: 988214

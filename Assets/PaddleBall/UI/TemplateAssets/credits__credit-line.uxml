@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/PaddleBall/UI/Uss/PaddleBallScreens.uss?fileID=7433441132597879392&amp;guid=5f1fa7b4fc1384e90a776788b57e71c1&amp;type=3#PaddleBallScreens" />
+    <ui:VisualElement name="credits__credit-group" class="credit-line credit-line__group">
+        <ui:Label text="Role" display-tooltip-when-elided="true" name="credits__role" class="credit-line__role"/>
+        <ui:Label text="First_Name Last_Name" display-tooltip-when-elided="true" name="credits__name" class="credit-line__name"/>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d47e343a593204831b5cc7be38d33668
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: Paddle Ball | ScriptableObject Sample Project
+  packageVersion: 1.2
+  assetPath: Assets/ScriptTemplates/83-C# Scriptable Object-NewScriptableObjectScript.cs.txt
+  uploadId: 988214

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 0da42a9e17004a708bd0731c821bdcc0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: Paddle Ball | ScriptableObject Sample Project
+  packageVersion: 1.2
+  assetPath: Assets/Core/Utilities/Editor/PackageDependencyChecker.cs
+  uploadId: 988214

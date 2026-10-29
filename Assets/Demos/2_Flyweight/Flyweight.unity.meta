@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 99448cfc8e43347b5b3282efd9474863
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: Paddle Ball | ScriptableObject Sample Project
+  packageVersion: 1.2
+  assetPath: Assets/Demos/2_Flyweight/Flyweight.unity
+  uploadId: 988214

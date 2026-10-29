@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 938ab9cef3f90404f988485117b3a2fe
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: Paddle Ball | ScriptableObject Sample Project
+  packageVersion: 1.2
+  assetPath: Assets/Demos/0_Core/UI/MenuScreensSetup_Scene.unity
+  uploadId: 988214

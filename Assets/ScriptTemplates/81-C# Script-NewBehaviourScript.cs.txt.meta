@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: fd67a825df0b9459ba922d64e6361582
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: Paddle Ball | ScriptableObject Sample Project
+  packageVersion: 1.2
+  assetPath: Assets/ScriptTemplates/81-C# Script-NewBehaviourScript.cs.txt
+  uploadId: 988214

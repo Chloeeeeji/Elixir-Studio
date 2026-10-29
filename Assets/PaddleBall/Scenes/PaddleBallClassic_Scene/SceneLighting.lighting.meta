@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8fdb7c40801a44f1c8628154455e5018
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4890085278179872738
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: Paddle Ball | ScriptableObject Sample Project
+  packageVersion: 1.2
+  assetPath: Assets/PaddleBall/Scenes/PaddleBallClassic_Scene/SceneLighting.lighting
+  uploadId: 988214

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: eb273dc8d66aa4003af86f72db70383f
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: Paddle Ball | ScriptableObject Sample Project
+  packageVersion: 1.2
+  assetPath: Assets/Demos/3_DelegateObjects/Prefabs/DelegateObjectsUI.prefab
+  uploadId: 988214

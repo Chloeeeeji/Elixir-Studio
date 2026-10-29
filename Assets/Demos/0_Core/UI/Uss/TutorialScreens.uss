@@ -1,0 +1,346 @@
+/*
+ * Layout for the six demo tutorial screens.
+ *
+ * Every demo screen is built from the same skeleton -- a full-screen row holding a text panel on
+ * the left and, in most demos, a play area on the right. These rules describe that skeleton, so a
+ * change to the shared structure happens once here rather than in six UXML files.
+ *
+ * Button appearance (.tutorial-button, .button-nextlast, .body-text) lives in PaddleBallScreens.uss,
+ * which every demo screen also references. The rules below only place those buttons; the modifiers
+ * for them are ordered so a later rule intentionally overrides the base it follows.
+ */
+
+/* ---------------------------------------------------------------- screen skeleton */
+
+.tutorial-screen {
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.tutorial-screen__background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(58, 58, 58, 0);
+}
+
+/* ---------------------------------------------------------------- text panel */
+
+.text-panel {
+    flex-basis: 45%;
+    height: 90%;
+    align-items: stretch;
+    color: rgb(255, 255, 255);
+    background-color: rgba(5, 5, 5, 0);
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+}
+
+.text-panel__header {
+    flex-basis: 15%;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-panel__title {
+    flex-basis: 100%;
+    font-size: 102px;
+    color: rgb(255, 255, 255);
+    -unity-font-definition: url("project://database/Assets/_ThirdParty/Fonts/Roboto/Roboto-Black%20SDF_FontAsset.asset?fileID=11400000&guid=e74ebc05ab3564fb187648ced4e2c0fa&type=2#Roboto-Black SDF_FontAsset");
+}
+
+.text-panel__body {
+    flex-basis: 60%;
+    flex-grow: 1;
+    flex-shrink: 0;
+    padding-bottom: 5%;
+}
+
+/* Pairs with .body-text, which supplies the font and colour */
+.text-panel__page-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 32px;
+    flex-shrink: 1;
+}
+
+.text-panel__footer {
+    flex-basis: 15%;
+    align-items: stretch;
+    justify-content: center;
+    margin-left: 0;
+    margin-top: 1%;
+}
+
+.text-panel__buttons {
+    position: absolute;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+/* Pulls a crowded row of buttons in from the panel edges */
+.text-panel__buttons--inset {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+/* ---------------------------------------------------------------- page navigation */
+
+/* Both pair with .button-nextlast, which supplies the arrow image. That base is rotated 180deg
+   to point backwards, so the forward arrow has to undo the rotation. */
+.nav-button--last {
+    position: absolute;
+    width: 10%;
+    height: 80%;
+    left: 0;
+}
+
+.nav-button--next {
+    position: absolute;
+    display: flex;
+    width: 10%;
+    height: 80%;
+    left: 90%;
+    flex-basis: auto;
+    rotate: 0deg;
+}
+
+/* ---------------------------------------------------------------- demo action buttons */
+
+/* Pairs with .tutorial-button, which places itself absolutely. Anything sitting in the button row
+   opts out of that and flows normally instead. */
+.action-button {
+    position: relative;
+    margin-right: 10px;
+}
+
+.action-button--half {
+    flex-basis: 45%;
+}
+
+.action-button--shrink {
+    flex-shrink: 1;
+}
+
+.action-button--narrow {
+    width: 40%;
+}
+
+/* The right-hand button of a pair: gap on the inside edge, not the outside.
+   Must follow .action-button to override its margin. */
+.action-button--gap-left {
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.action-button--flush {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/* ---------------------------------------------------------------- Flyweight ball icons */
+
+.ball-icon {
+    flex-grow: 1;
+    width: 100%;
+    height: 42%;
+    scale: 0.5 0.5;
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.ball-icon--large {
+    scale: 0.6 0.6;
+}
+
+.ball-icon--circle {
+    background-image: url("project://database/Assets/PaddleBall/Textures/Icons/Circle256.png?fileID=2800000&guid=f4e41b6527ba545629b1d69d0fa041a4&type=3#Circle256");
+}
+
+.ball-icon--square {
+    background-image: url("project://database/Assets/PaddleBall/Textures/Icons/SquareSolid.png?fileID=2800000&guid=d107f36d7f9964863b11c6f879a1a588&type=3#SquareSolid");
+}
+
+.ball-icon--hex {
+    background-image: url("project://database/Assets/Demos/2_Flyweight/Textures/HexRounded.png?fileID=2800000&guid=5ad6b88625e9b4a43bac932108796f96&type=3#HexRounded");
+}
+
+/* ---------------------------------------------------------------- play area */
+
+.play-area {
+    flex-basis: 50%;
+    height: 90%;
+}
+
+.play-area__header {
+    flex-basis: 25%;
+    align-items: center;
+    justify-content: center;
+}
+
+.play-area__body {
+    flex-basis: 50%;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.play-area__footer {
+    flex-basis: 10%;
+}
+
+/* ---------------------------------------------------------------- Event Channels diagram */
+
+.diagram-label {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    -unity-font-definition: url("project://database/Assets/_ThirdParty/Fonts/Inter/Inter-Medium/Inter-Medium%20SDF_FontAsset.asset?fileID=11400000&guid=3a7d7cc90e43f44478bfccf76c97073e&type=2#Inter-Medium SDF_FontAsset");
+}
+
+/* Sits under its icon rather than above it */
+.diagram-label--below {
+    bottom: -50%;
+}
+
+.broadcaster-button {
+    width: 30%;
+    height: 100%;
+    top: -5%;
+    justify-content: flex-start;
+    align-items: center;
+    visibility: visible;
+    background-image: none;
+    background-color: rgba(248, 205, 205, 0);
+    -unity-background-scale-mode: scale-to-fit;
+    border-left-color: rgba(149, 149, 149, 0);
+    border-right-color: rgba(149, 149, 149, 0);
+    border-top-color: rgba(149, 149, 149, 0);
+    border-bottom-color: rgba(149, 149, 149, 0);
+}
+
+.broadcaster-icon {
+    flex-basis: 100%;
+    width: 75%;
+    -unity-background-scale-mode: scale-to-fit;
+    background-image: url("project://database/Assets/PaddleBall/Textures/Icons/Broadcast_Icon.png?fileID=21300000&guid=2e58bda49aa614f148459ffee7515103&type=3#Broadcast_Icon");
+}
+
+.channel-row {
+    flex-basis: 35%;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    top: 8%;
+}
+
+.channel-icon {
+    width: 17%;
+    height: 80%;
+    -unity-background-scale-mode: scale-to-fit;
+    background-image: url("project://database/Assets/Demos/4_EventChannels/Textures/SignalRelay_Icon.png?fileID=21300000&guid=d7ccabba8e8e44f4aa5c671a97b891c8&type=3#SignalRelay_Icon");
+}
+
+.listener-row {
+    flex-basis: 55%;
+    flex-direction: row;
+    width: 70%;
+    margin-top: 5%;
+    top: 25%;
+}
+
+.listener-icon {
+    flex-basis: 50%;
+    height: 40%;
+    justify-content: flex-end;
+    align-items: center;
+    -unity-background-scale-mode: scale-to-fit;
+    background-image: url("project://database/Assets/PaddleBall/Textures/Icons/Listener_Icon.png?fileID=21300000&guid=20b34f5a3f45c44fcaa630e86e33cd46&type=3#Listener_Icon");
+}
+
+/* ---------------------------------------------------------------- Data Containers credits */
+
+.credits-panel {
+    flex-basis: 45%;
+    height: 80%;
+    align-items: center;
+    top: -5%;
+    left: 5%;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+
+.credits-panel__header {
+    flex-basis: 25%;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    top: 8%;
+}
+
+.credits-panel__title {
+    flex-basis: 39%;
+    width: 100%;
+    font-size: 64px;
+    color: rgb(255, 255, 255);
+    -unity-text-align: upper-center;
+    flex-wrap: wrap;
+    -unity-font-definition: url("project://database/Assets/_ThirdParty/Fonts/Inter/Inter-Bold/Inter-Bold%20SDF_FontAsset.asset?fileID=11400000&guid=95b70fa7ea03d427e8c7511cab180b86&type=2#Inter-Bold SDF_FontAsset");
+}
+
+.credits-panel__subheading {
+    flex-basis: 55%;
+    width: 100%;
+    font-size: 26px;
+    color: rgb(255, 255, 255);
+    -unity-text-align: upper-center;
+    align-items: center;
+    flex-wrap: wrap;
+    white-space: normal;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    -unity-font-definition: url("project://database/Assets/_ThirdParty/Fonts/Inter/Inter-Medium/Inter-Medium%20SDF_FontAsset.asset?fileID=11400000&guid=3a7d7cc90e43f44478bfccf76c97073e&type=2#Inter-Medium SDF_FontAsset");
+}
+
+.credits-panel__body {
+    flex-basis: 50%;
+    flex-grow: 1;
+    width: 90%;
+    align-items: center;
+    margin-top: 5%;
+}

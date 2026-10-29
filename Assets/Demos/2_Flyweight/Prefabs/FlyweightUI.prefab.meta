@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 51329974e434141fb90618d5f172b0b9
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: Paddle Ball | ScriptableObject Sample Project
+  packageVersion: 1.2
+  assetPath: Assets/Demos/2_Flyweight/Prefabs/FlyweightUI.prefab
+  uploadId: 988214
