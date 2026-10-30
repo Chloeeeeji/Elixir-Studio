@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: c38e06249932749b19e8280afd385574
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: Paddle Ball | ScriptableObject Sample Project
+  packageVersion: 1.2
+  assetPath: Assets/Core/Utilities/Scripts/SaveLoad/XmlSaver.cs
+  uploadId: 988214

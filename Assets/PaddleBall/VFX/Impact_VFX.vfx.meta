@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3d3dba3dcb1fa4091ac6c04b1971c7dc
+VisualEffectImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: Paddle Ball | ScriptableObject Sample Project
+  packageVersion: 1.2
+  assetPath: Assets/PaddleBall/VFX/Impact_VFX.vfx
+  uploadId: 988214

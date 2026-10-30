@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: b185f08e238bb4aaa903250d2e43c7ae
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: Paddle Ball | ScriptableObject Sample Project
+  packageVersion: 1.2
+  assetPath: Assets/Demos/0_Core/Scripts/UI/DemoTextScreen.cs
+  uploadId: 988214

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f6cbf00434505459ca151e7edd13c010
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: Paddle Ball | ScriptableObject Sample Project
+  packageVersion: 1.2
+  assetPath: Assets/Demos/0_Core/Prefabs/NextButton.prefab
+  uploadId: 988214

@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 078675ca8a7a043e390d7723ce7495db
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: Paddle Ball | ScriptableObject Sample Project
+  packageVersion: 1.2
+  assetPath: Assets/Core/UI/Scripts/ButtonBinders/ButtonVoidEventChannelBinder.cs
+  uploadId: 988214

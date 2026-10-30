@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: dfe94e6f4429448eb8ddd34156136b9a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: Paddle Ball | ScriptableObject Sample Project
+  packageVersion: 1.2
+  assetPath: Assets/PaddleBall/PipelineSettings/UniversalRP.asset
+  uploadId: 988214

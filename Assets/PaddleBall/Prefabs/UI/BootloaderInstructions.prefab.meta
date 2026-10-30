@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4900b11d0dbe24913858bafb380e6f44
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: Paddle Ball | ScriptableObject Sample Project
+  packageVersion: 1.2
+  assetPath: Assets/PaddleBall/Prefabs/UI/BootloaderInstructions.prefab
+  uploadId: 988214

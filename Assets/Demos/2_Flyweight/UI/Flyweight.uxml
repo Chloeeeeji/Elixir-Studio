@@ -1,0 +1,30 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/PaddleBall/UI/Uss/PaddleBallScreens.uss?fileID=7433441132597879392&amp;guid=5f1fa7b4fc1384e90a776788b57e71c1&amp;type=3#PaddleBallScreens" />
+    <Style src="project://database/Assets/Demos/0_Core/UI/Uss/TutorialScreens.uss?fileID=7433441132597879392&amp;guid=8241f479c14c4fb9ad0a9ef1aa4a9f85&amp;type=3#TutorialScreens" />
+    <ui:VisualElement name="tutorial__container" picking-mode="Ignore" class="tutorial-screen">
+        <ui:VisualElement name="tutorial__background" picking-mode="Ignore" class="tutorial-screen__background" />
+        <ui:VisualElement name="text-screen__container" class="text-panel">
+            <ui:VisualElement name="text-screen__header" class="text-panel__header">
+                <ui:Label text="Title" display-tooltip-when-elided="true" name="text-screen__title" class="text-panel__title" />
+            </ui:VisualElement>
+            <ui:VisualElement name="text-screen__body" class="text-panel__body">
+                <ui:Label display-tooltip-when-elided="true" name="text-screen__page-text" class="body-text text-panel__page-text" />
+            </ui:VisualElement>
+            <ui:VisualElement name="text-screen__footer" class="text-panel__footer">
+                <ui:VisualElement name="text-screen__button-panel" class="text-panel__buttons text-panel__buttons--inset">
+                    <ui:Button display-tooltip-when-elided="true" name="text-screen__button-last" enable-rich-text="true" text="&#10;" class="button-nextlast nav-button--last" />
+                    <ui:Button display-tooltip-when-elided="true" name="text-screen__ball-button-a" class="tutorial-button action-button action-button--half action-button--shrink">
+                        <ui:VisualElement name="text-screen__ball-button-a-icon" class="ball-icon ball-icon--circle" />
+                    </ui:Button>
+                    <ui:Button display-tooltip-when-elided="true" name="text-screen__ball-button-b" text="2" class="tutorial-button action-button action-button--half action-button--shrink">
+                        <ui:VisualElement name="text-screen__ball-button-b-icon" class="ball-icon ball-icon--square" />
+                    </ui:Button>
+                    <ui:Button display-tooltip-when-elided="true" name="text-screen__ball-button-c" text="3" parse-escape-sequences="true" class="tutorial-button action-button action-button--half action-button--shrink">
+                        <ui:VisualElement name="text-screen__ball-button-c-icon" class="ball-icon ball-icon--hex ball-icon--large" />
+                    </ui:Button>
+                    <ui:Button display-tooltip-when-elided="true" name="text-screen__button-next" class="button-nextlast nav-button--next" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

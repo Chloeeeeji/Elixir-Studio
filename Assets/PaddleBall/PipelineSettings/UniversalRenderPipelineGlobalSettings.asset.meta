@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b76b142cc246740babecb40cb0d4e531
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: Paddle Ball | ScriptableObject Sample Project
+  packageVersion: 1.2
+  assetPath: Assets/PaddleBall/PipelineSettings/UniversalRenderPipelineGlobalSettings.asset
+  uploadId: 988214

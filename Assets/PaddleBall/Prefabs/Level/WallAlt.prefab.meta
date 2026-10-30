@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c0d7b98c86d274046939ed6d81af5c66
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 325743
+  packageName: Paddle Ball | ScriptableObject Sample Project
+  packageVersion: 1.2
+  assetPath: Assets/PaddleBall/Prefabs/Level/WallAlt.prefab
+  uploadId: 988214
