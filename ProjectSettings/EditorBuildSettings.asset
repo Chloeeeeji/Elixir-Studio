@@ -6,34 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Bootloader_Scene.unity
-    guid: 8fb1f7cbd89da4fbaafdfcde688db6fe
-  - enabled: 1
-    path: Assets/PaddleBall/Scenes/PaddleBallClassic_Scene.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
-  - enabled: 1
-    path: Assets/PaddleBall/Scenes/PaddleBallHockey_Scene.unity
-    guid: 78a66c5aed4404c96b5db2e68586ac4f
-  - enabled: 1
-    path: Assets/PaddleBall/Scenes/PaddleBallFoosball_Scene.unity
-    guid: 78e496d64636a4f55b23c6d51981aa76
-  - enabled: 1
-    path: Assets/Demos/1_DataContainers/DataContainers.unity
-    guid: a901599541a4c4ff584026107450080d
-  - enabled: 1
-    path: Assets/Demos/2_Flyweight/Flyweight.unity
-    guid: 99448cfc8e43347b5b3282efd9474863
-  - enabled: 1
-    path: Assets/Demos/3_DelegateObjects/DelegateObjects.unity
-    guid: 597dc9d1b2c0f44cc9c9be8d4cac85a0
-  - enabled: 1
-    path: Assets/Demos/4_EventChannels/EventChannels.unity
-    guid: 8fc909f2455f2435092565c62ee865d3
-  - enabled: 1
-    path: Assets/Demos/5_RuntimeSets/RuntimeSets.unity
-    guid: a2ec658d06e654379b86d3aee4b2db27
-  - enabled: 1
-    path: Assets/Demos/6_Enums/Enums.unity
-    guid: 36e4389611067459cb204a6dcca2bb73
-  m_configObjects: {}
-  m_UseUCBPForAssetBundles: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}

@@ -1,9 +1,0 @@
-<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <Style src="project://database/Assets/PaddleBall/UI/Uss/PaddleBallScreens.uss?fileID=7433441132597879392&amp;guid=5f1fa7b4fc1384e90a776788b57e71c1&amp;type=3#PaddleBallScreens"/>
-    <ui:VisualElement name="splash__background" class="bootloader-screen">
-        <ui:VisualElement name="splash__background-image" class="background-image bootloader-screen__background"/>
-        <ui:VisualElement name="splash__load-panel" class="bootloader-panel">
-            <ui:Label text="Enter Play mode to begin" display-tooltip-when-elided="true" name="splash__instructions" class="bootloader-instructions"/>
-        </ui:VisualElement>
-    </ui:VisualElement>
-</ui:UXML>

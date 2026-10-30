@@ -1,9 +1,0 @@
-fileFormatVersion: 2
-guid: e4a74671df951492385b3f1adbf192c1
-AssetOrigin:
-  serializedVersion: 1
-  productId: 325743
-  packageName: Paddle Ball | ScriptableObject Sample Project
-  packageVersion: 1.2
-  assetPath: Assets/Demos/4_EventChannels/Scripts/EventChannelsDemo.cs
-  uploadId: 988214

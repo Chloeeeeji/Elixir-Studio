@@ -1,9 +1,0 @@
-fileFormatVersion: 2
-guid: a7745c79a56ad449cb08265157015f2a
-AssetOrigin:
-  serializedVersion: 1
-  productId: 325743
-  packageName: Paddle Ball | ScriptableObject Sample Project
-  packageVersion: 1.2
-  assetPath: Assets/Core/UI/Scripts/ButtonBinders/ButtonIntEventChannelBinder.cs
-  uploadId: 988214

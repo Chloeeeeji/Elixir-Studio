@@ -1,9 +1,0 @@
-fileFormatVersion: 2
-guid: 746017d3964e3497d88c054e4ed4db47
-AssetOrigin:
-  serializedVersion: 1
-  productId: 325743
-  packageName: Paddle Ball | ScriptableObject Sample Project
-  packageVersion: 1.2
-  assetPath: Assets/Core/UI/Scripts/ButtonBinders/ButtonSceneLoaderBinder.cs
-  uploadId: 988214

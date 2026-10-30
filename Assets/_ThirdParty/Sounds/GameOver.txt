@@ -1,4 +1,0 @@
-GameOver.wav
-
-Original sound created by the package author.
-Not third-party content, so no external attribution applies.
